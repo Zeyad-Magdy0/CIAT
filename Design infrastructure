@@ -1,0 +1,37 @@
+Current Design:
+
+ciat/
+├── __init__.py            ← Makes it a package
+├── main.py                ← Entry point, dispatches audits
+├── ssh_audit.py           ← SSH audit module
+├── file_permission_audit.py ← File permission audit module
+├── firewall_rules_audit.py ← Firewall rules audit module
+├── users_and_sudo_audit.py ← Users and sudo access audit module
+├── port_check_audit.py     ← Port check audit module
+├── package_inventory.py ← Software inventory audit module
+├── logger.py              ← Logging setup
+
+
+Design Upgrade: { More modularity, More scalability, More re-usable code }
+
+ciat/
+├── __init__.py            ← Makes it a package
+├── main.py                ← Entry point, dispatches audits {Paramaiko}
+├── audits/
+│   ├── __init__.py        ← Makes it a package
+│   ├── ssh_audit.py       ← SSH audit module
+│   ├── file_permission_audit.py ← File permission audit module
+│   ├── firewall_rules_audit.py ← Firewall rules audit module
+│   ├── users_and_sudo_audit.py ← Users and sudo access audit module
+│   ├── port_check_audit.py     ← Port check audit module
+│   ├── package_inventory.py ← Software inventory audit module
+│   ├── log.py          ← Logging setup  
+│   ├── base_audit.py              ← abstract class to unify some rules across all the audits modules 
+|                                           { All audit modules should inherit this class }
+│
+├── Helpers/
+│   ├── __init__.py        ← Makes it a package
+│   ├── log.py          ← Logging setup
+│   ├── utils.py       ← Utility functions
+│       {utilis.py should contain different classes, each class should be respnosible for a set of related functions}
+│           {FileManagement class, NetworkHelpers class, UserAccessManagements class, etc...}

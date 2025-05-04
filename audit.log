@@ -1,0 +1,26 @@
+2025-04-21 07:02:06 - [34mINFO[0m - AllowUsers configured
+2025-04-21 07:02:06 - [34mINFO[0m - DenyUsers configured
+2025-04-21 07:02:06 - [33mWARNING[0m - Root login enabled
+2025-04-21 07:02:06 - [33mWARNING[0m - Password Authentication is enabled
+2025-04-21 07:02:06 - [33mWARNING[0m - Empty Passwords are allowed
+2025-04-21 07:02:06 - [33mWARNING[0m - Non-v2 SSH protocol used
+2025-04-21 07:02:06 - [33mWARNING[0m - X11 Forwarding is allowed
+2025-04-21 07:02:06 - [33mWARNING[0m - More than 5 auth attempts allowed
+2025-04-21 07:02:06 - [33mWARNING[0m - Weak ciphers found
+2025-04-21 07:02:06 - [33mWARNING[0m - Default SSH port in use
+2025-04-21 07:02:06 - [33mWARNING[0m - No Allow/Deny access control found
+2025-04-21 07:02:06 - [33mWARNING[0m - Password Authentication is enabled
+2025-04-21 07:02:06 - [33mWARNING[0m - Default SSH port in use
+2025-04-21 07:02:06 - [33mWARNING[0m - No Allow/Deny access control found
+2025-04-21 07:02:06 - [31mERROR[0m - Configuration file /nonexistent/file does not exist.
+2025-04-21 07:02:06 - [33mWARNING[0m - Root login enabled
+2025-04-21 07:02:06 - [33mWARNING[0m - Password Authentication is enabled
+2025-04-21 07:02:06 - [33mWARNING[0m - Default SSH port in use
+2025-04-21 07:02:06 - [33mWARNING[0m - No Allow/Deny access control found
+2025-04-21 07:02:07 - [33mWARNING[0m - Root login enabled
+2025-04-21 07:02:07 - [33mWARNING[0m - Password Authentication is enabled
+2025-04-21 07:02:07 - [33mWARNING[0m - Default SSH port in use
+2025-04-21 07:02:07 - [33mWARNING[0m - No Allow/Deny access control found
+2025-04-21 07:02:07 - [33mWARNING[0m - Root login enabled
+2025-04-21 07:02:07 - [33mWARNING[0m - Password Authentication is enabled
+2025-04-21 07:02:07 - [33mWARNING[0m - No Allow/Deny access control found
